@@ -8,22 +8,34 @@ function App() {
   //let counter = 15
 
   const addValue = ()=>{
-    /*
+    
+    //update only +1
     console.log("Clicked" , counter);
     //counter = counter + 1
     //setCounter(counter)
     setCounter(counter + 1 )
-    */
+    setCounter(counter + 1 )
+    setCounter(counter + 1 )
+    setCounter(counter + 1 )
+    setCounter(counter + 1 )
+    
+
+    /* // update +5
     if (counter < 20) {
-      setCounter(counter => counter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
     }
+    */
   }
 
   const removeValue = ()=>{
-    //setCounter(counter - 1 )
-    if (counter > 0) {
-      setCounter(counter => counter - 1);
-    }
+    setCounter(counter - 1 )
+    // if (counter > 0) {
+    //   setCounter(counter => counter - 1);
+    // }
   }
 
   return (
